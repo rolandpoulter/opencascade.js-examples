@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>OpenCascade.js example</title>
+		<title>ReactCAD Example</title>
 	</head>
 	<style>
 		body {
@@ -16,9 +16,16 @@
 			flex-basis: 0;
 			flex-grow: 1;
 		}
+		#app {
+			position: 'absolute';
+			z-index: 1;
+			top: 0;
+			left: 0;
+		}
 	</style>
 	<body>
-		<div id="viewport">
-		</div>
+		<div id="viewport"></div>
+		<div id="app"></div>
+		<script src="./bundle.js"></script>
 	</body>
 </html>
